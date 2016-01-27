@@ -1,0 +1,33 @@
+{
+  "name": "clementinejs",
+  "version": "1.0.2",
+  "description": "A light-weight MEAN stack boilerplate.",
+  "main": "server.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnstonbl01/clementinejs"
+  },
+  "homepage": "http://johnstonbl01.github.io/clementinejs/",
+  "bugs": "https://github.com/johnstonbl01/clementinejs/issues",
+  "keywords": [
+    "MEAN",
+    "MongoDB",
+    "Express",
+    "Angular",
+    "Node",
+    "javascript",
+    "boilerplate"
+  ],
+  "author": "Blake Johnston",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "express": "^4.13.3",
+    "mocha": "^2.4.3",
+    "mongodb": "^2.0.42"
+  }
+}
