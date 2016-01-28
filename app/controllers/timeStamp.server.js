@@ -10,11 +10,11 @@ function timeStamp (db) {
 
       var unix, natural;
 
-      if (result == null)
+      if (result === null)
       {
          result = string.match(/^[a-zA-Z]+\s\d{2},\s\d{4}$/)
 
-         if (result == null)
+         if (result === null)
          {
             unix = null;
             natural = null;            
