@@ -4,7 +4,7 @@ var TimeStamp = require(process.cwd() + '/app/controllers/timeStamp.server.js');
 
 var timeStamp = new TimeStamp();
 
-module.exports = function (app, db) {
+module.exports = function (app) {
   
    app.route('/')
       .get(function (req, res) {

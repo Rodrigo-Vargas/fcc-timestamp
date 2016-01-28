@@ -14,18 +14,16 @@
   "bugs": "https://github.com/Rodrigo-Vargas/fcc-timestamp/issues",
   "keywords": [
     "MEAN",
-    "MongoDB",
     "Express",
-    "Angular",
     "Node",
-    "javascript"
+    "javascript",
+    "timestamp"
   ],
   "author": "Rodrigo Vargas",
   "license": "MIT",
   "dependencies": {
     "chai": "^3.4.1",
     "express": "^4.13.3",
-    "mocha": "^2.4.3",
-    "mongodb": "^2.0.42"
+    "mocha": "^2.4.3"
   }
 }
