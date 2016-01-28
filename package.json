@@ -1,28 +1,26 @@
 {
-  "name": "clementinejs",
-  "version": "1.0.2",
-  "description": "A light-weight MEAN stack boilerplate.",
+  "name": "rvg-timestamp",
+  "version": "1.0.0",
+  "description": "A timestamp microservice for the fcc course.",
   "main": "server.js",
   "scripts": {
-    "start": "gulp",
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnstonbl01/clementinejs"
+    "url": "git+https://github.com/Rodrigo-Vargas/fcc-timestamp"
   },
-  "homepage": "http://johnstonbl01.github.io/clementinejs/",
-  "bugs": "https://github.com/johnstonbl01/clementinejs/issues",
+  "homepage": "http://rodrigovg.com/",
+  "bugs": "https://github.com/Rodrigo-Vargas/fcc-timestamp/issues",
   "keywords": [
     "MEAN",
     "MongoDB",
     "Express",
     "Angular",
     "Node",
-    "javascript",
-    "boilerplate"
+    "javascript"
   ],
-  "author": "Blake Johnston",
+  "author": "Rodrigo Vargas",
   "license": "MIT",
   "dependencies": {
     "chai": "^3.4.1",
